@@ -20,7 +20,7 @@ const App: React.FC = () => {
   }, []);
   return (
     <>
-      <div>
+      <div className="color">
         <h1>
           Request Fetched from
           <code>"https://jsonplaceholder.typicode.com/posts"</code>
